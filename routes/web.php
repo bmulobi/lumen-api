@@ -20,3 +20,13 @@ $router->post('register',[
     'uses' => 'UserController@register',
     'as' => 'register'
 ]);
+
+$router->post('login',[
+    'uses' => 'UserController@login',
+    'as' => 'login'
+]);
+
+$router->post('test',[
+    'uses' => 'UserController@test',
+    'as' => 'test'
+]);
